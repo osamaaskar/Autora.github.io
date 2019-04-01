@@ -258,6 +258,17 @@ secondry-color:#00818a
         margin-bottom: 15px;
     }
 }
+@media(max-width:991.98px){
+    .about-us .about-details .about-title,
+    .about-us .about-details .about-description,
+    .about-us .about-details ul{
+        padding-left: 10px;
+    }
+    .about-us  .btn-light,
+    .about-us .about-details hr{
+        margin-left: 10px;
+    }
+}
 /*-------------------End About Us------------*/
 
 
@@ -591,12 +602,12 @@ secondry-color:#00818a
 /*-------------------End Footer------------*/
 /*-------------------Start Copy------------*/
 .copy{
-    background-color: #09194f;
+    background-color: #fff;
     padding: 20px;
 }
 .copy h1{
     font-size: 20px;
-    color:#fff;
+    color:#09194f;
 }
 /*-------------------End Copy------------*/
 /*Start Button Scroll*/
